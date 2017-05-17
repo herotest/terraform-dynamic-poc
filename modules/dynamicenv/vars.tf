@@ -15,6 +15,7 @@ variable "ami" {
 
 variable "subnet_id" {
   description = "Subnet id"
+  default = "subnet-9d4a7b6c"
 }
 
 variable "dynamic_env_id" {
