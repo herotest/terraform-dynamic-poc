@@ -1,6 +1,6 @@
 provider "aws" {
   region = "${var.region}"
-  shared_credentials_file = "/home/vagrant/.aws/creds"
+  shared_credentials_file = "/home/vagrant/.aws/credentials"
 }
 
 resource "aws_instance" "dynamic_environment" {
