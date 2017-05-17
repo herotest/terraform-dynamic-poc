@@ -18,7 +18,6 @@ variable "subnet_id" {
   default = "subnet-b2dd5ceb"
 }
 
-{
 variable "dynamic_env_id" {
   description = "ID of environment"
 }
