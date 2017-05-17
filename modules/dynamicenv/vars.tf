@@ -12,10 +12,12 @@ variable "ami" {
   description = "Image AMI"
   default = "ami-7a85a01a"
 }
+
 variable "subnet_id" {
   description = "Subnet_id"
   default = "subnet-b2dd5ceb"
 }
+
 {
 variable "dynamic_env_id" {
   description = "ID of environment"
