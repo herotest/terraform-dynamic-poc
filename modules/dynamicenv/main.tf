@@ -10,5 +10,5 @@ resource "aws_instance" "dynamic_environment" {
   tags {
     name = "ec2_instance_${var.dynamic_env_id}"
   }
-  subnet_id = "${var.subnet_id}"
+    SubnetIdd = "${var.subnet_id}"
 }
