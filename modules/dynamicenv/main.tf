@@ -7,7 +7,6 @@ resource "aws_instance" "dynamic_environment" {
   ami = "${var.ami}" 
   instance_type = "${var.instance_type}" 
   key_name = "SNK_DEV"
-  subnet_id  = "${var.subnet_id}"
   tags {
     name = "ec2_instance_${var.dynamic_env_id}"
   }
