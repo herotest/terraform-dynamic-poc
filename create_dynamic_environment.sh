@@ -5,7 +5,7 @@ pushd $(dirname ${BASH_SOURCE[0]})
 
 # Create a (probably) unique ID by concatenating two random values (RANDOM is a variable inherent to bash), with the day of year as a suffix.
 ID="dynamic_environment_${RANDOM}${RANDOM}_$(date +%j)"
-
+#ami-c58c1dd3
 # Create the terraform folder.
 mkdir -p ${ID}
 pushd ${ID}
